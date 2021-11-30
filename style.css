@@ -12,9 +12,10 @@ body {
 .page-header {
     width: 100vw;
     height: 100vh;
-    background-color: skyblue;
+    background: linear-gradient(to bottom,rgb(58, 49, 134) -50%,skyblue);
     overflow: hidden;
     position: relative;
+    box-shadow: skyblue 0 0 250px 250px;
 }
 
 .header-info {
@@ -26,15 +27,42 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
-    font-size: 30px;
+    z-index: 3;
+    font-size: 12vh;
+    color: gold;
 }
 
 .bg-stars {
-    object-fit: cover;
+    object-fit: scale-down;
     height: 100%;
     width: 100%;
     object-position: center center;
+    position: relative;
+    z-index: 1;
+}
+
+.main-clouds {
+    object-fit: scale-down;
+    width: 50%;
+    position: absolute;
+    z-index: 5;
+    bottom: 60%;
+    left: 30%;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.h-birds {
+    object-fit: scale-down;
+    width: 20%;
+    position: absolute;
+    z-index: 3;
+    bottom: 40%;
+    right: 0;
+    z-index: 2;
 }
 
 main {
