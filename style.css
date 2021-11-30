@@ -86,8 +86,8 @@ body {
 .h-onecloud3 {
     position: absolute;
     z-index: 3;
-    bottom: -35%;
-    left: -15%;
+    bottom: -55%;
+    left: 0%;
     z-index: 9;
     width: 800px;
 }
